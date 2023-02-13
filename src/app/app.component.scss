@@ -1,0 +1,24 @@
+.fa-arrow-circle-up {
+    position: fixed;
+    bottom: 9px;
+    right: 20px;
+    font-size: 50px;
+    color: #fff;
+    background-color: #6E7E85;
+    border-radius: 50px;
+    z-index: 99999999;
+}
+
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    opacity: 0;
+    transition: all .2s ease-in-out;
+}
+
+.show-scrollTop {
+    opacity: 1;
+    transition: all .2s ease-in-out;
+}

@@ -1,0 +1,56 @@
+h6{
+    font-size: 23px;
+    font-weight: 600;
+    color: #999999;
+    padding-bottom: 10px;
+}
+
+i{
+    font-size: 25px;
+    color: #5CB874;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+form{
+    background-color:#F7F7F7;
+    padding: 35px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+input{
+    width: 100%;
+    padding: 7px 0px 7px 10px;
+    outline: none;
+}
+textarea{
+    width: 100%;
+    padding: 7px 0px 0px 10px;
+    outline: none;
+}
+
+button{
+    background: #5CB874;
+    color: #fff;
+    outline: none;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+.lines{
+    width: 4%;
+    margin: 0px 48%;
+    border-bottom: 3px solid #6ABE80;
+}
+.line{
+    width: 12%;
+    margin: 0px 44%;
+    border-bottom: 1px solid #DDDDDD;
+}

@@ -1,0 +1,46 @@
+.card-text {
+    border: none;
+    background: #E70012;
+    color: burlywood;
+    border-radius: 8px;
+    box-shadow: 1px 2px 3px #000;
+}
+.card-text:hover {
+    border: none;
+    background: burlywood;
+    border-bottom: 1px solid #E70012;
+    color: #E70012;
+    border-radius: 8px;
+    box-shadow: 1px 2px 3px #000;
+}
+.card{
+    width: 18rem;
+    border: none;
+    box-shadow: 1px 2px 9px #888888;
+}
+.lines{
+    width: 5%;
+    margin: 0px 47%;
+    border-bottom: 3px solid #6ABE80;
+}
+.line{
+    width: 40%;
+    margin: 0px 30%;
+    border-bottom: 1px solid #DDDDDD;
+}
+.lins{
+    width: 4%;
+    margin: 0px 48%;
+    border-bottom: 3px solid #6ABE80;
+}
+.lin{
+    width: 16%;
+    margin: 0px 42%;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+// .star::before {
+//     content: "> ";
+//     margin-left: -1.5em;
+//     display: absolute;
+// }

@@ -1,0 +1,9 @@
+<router-outlet></router-outlet>
+<app-package></app-package>
+<app-layout></app-layout>
+<!-- <i class="fa fa-arrow-circle-up" aria-hidden="true" *ngIf="isShow" (click)="gotoTop()"></i> -->
+<div class="scroll-to-top" [ngClass]="{'show-scrollTop': windowScrolled}">
+    <button (click)="scrollToTop()">
+        <i class="fa fa-chevron-up"></i>
+    </button>
+</div>
